@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Pirata+One&display=swap');
+body{
+    /* background-color: var(--primary-color); */
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+    font-size: large;
+    background-image: linear-gradient(darkblue,lightblue,white);
+}
+:root{
+    --primary-color:rgb(228, 133, 95)
+}
+
+
+.heading{
+    padding:1rem
+    
+}
+.input{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+}
+
+#input_box{
+    width: 25%;
+    padding:1rem;
+    margin:1rem;
+    border: 3px solid black;
+    border-radius: 0.3rem;
+    height: 4rem;
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+}
+#button_translate{
+    background-color:rgb(115, 115, 224);
+    padding: 1rem;
+    width: 17%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 2px;
+    font-size: large
+}
+
+#button_translate:hover{
+    color:rgb(108, 108, 207);
+    background-color:black
+    
+}
+#bottom{
+    width: 25%;
+    padding:1rem;
+    margin:1rem;
+    border: 3px solid black;
+    border-radius: 0.3rem;
+    height: 4rem;
+}
+.footer{
+    margin: 2rem 25rem;
+    text-align: center;
+}
+.image{
+    width: 250px;
+    height: 220px;
+    border-radius: 50%;
+}
